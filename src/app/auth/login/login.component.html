@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <img src="../../../assets/img/svg/login-illustration.svg" class="h-100 w-100" alt="">
+        </div>
+
+        <div class="col-4 form-login mt-5">
+            <h3>Welcome to Weather App</h3>
+            <div class="mb-5"></div>
+            <form class="">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="username" [(ngModel)]="username">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" [(ngModel)]="password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+
+                  <div class="action-buttons mt-4">
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-outline-warning me-md-2 w-25 rounded" type="button" (click)="login()"> Login </button>
+                      </div>
+                      <div class="mt-2 d-flex">
+                        <a routerLink="/sign-up" class="link-warning fs-6 text-decoration-none text-hover-primary">Need account?</a>
+                      </div>
+                  </div>
+
+              </form>
+        </div>
+
+        <div class="col-2"></div>
+    </div>
+</div>
