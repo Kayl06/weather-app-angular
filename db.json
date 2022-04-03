@@ -1,0 +1,13 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "name": "Fedimar Kayl Rabanzo",
+            "birthdate": "12/06/1997"
+        }
+    ],
+    "signup-users": [],
+    "profile": {
+        "name": "typicode"
+    }
+}
